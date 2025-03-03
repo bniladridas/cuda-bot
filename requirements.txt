@@ -1,0 +1,4 @@
+discord.py
+torch
+cupy-cuda11x
+tensorflow

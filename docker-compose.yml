@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  cuda-bot:
+    build: .
+    container_name: cuda-bot
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=none
+    restart: unless-stopped
+    volumes:
+      - .:/app
