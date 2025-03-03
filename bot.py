@@ -19,6 +19,7 @@ async def load_extensions():
     await bot.load_extension('commands.gpu_stats')
     await bot.load_extension('commands.benchmark')
     await bot.load_extension('commands.help')
+    await bot.load_extension('commands.condition')
 
 async def main():
     async with bot:

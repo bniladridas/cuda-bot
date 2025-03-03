@@ -32,6 +32,7 @@ A Discord bot for monitoring and benchmarking GPU performance using CUDA.
 - `/gpu_stats` - Get current GPU statistics
 - `/benchmark` - Run CUDA performance benchmark
 - `/help` - Get help with bot commands
+- `/condition` - Get the current condition of the bot
 
 ## Notes
 
